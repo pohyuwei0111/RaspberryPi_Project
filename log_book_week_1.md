@@ -2,8 +2,7 @@
 
 **Name:** Poh Yu Wei  
 **Matric:** A23KE0307  
-**Supervisor:** Assoc Prof Muhammad Mun’im 
-Bin Ahmad Zabidi  
+**Supervisor:** Assoc Prof Muhammad Mun’im Bin Ahmad Zabidi  
 
 ---
 
@@ -17,10 +16,21 @@ Bin Ahmad Zabidi
 ---
 
 ## Summary of Weekly Activities
-- **Day 1:** Faced issue setting up Raspberry Pi due to lack of HDMI monitor. Researched and found alternative method to install Raspberry Pi OS on SD card using a card reader for headless setup.  
-- **Day 2:** Successfully booted Raspberry Pi and configured VNC for remote desktop access.  
-- **Day 3:** Connected USB microphone and verified it was detected by the system. Installed required Python libraries in Thonny.  
-- **Day 4:** Developed Python script to capture audio samples and analyze amplitude levels. Validated results with varying sound inputs.  
-- **Day 5:** Integrated Vosk small model for speech-to-text testing. Verified basic transcription functionality and documented process for future AI tasks.  
 
----
+### Day 1
+- Faced issue setting up Raspberry Pi due to lack of HDMI monitor.  
+- Researched and applied an alternative method to install Raspberry Pi OS on SD card using a card reader for headless setup.  
+
+### Day 2
+- Successfully booted Raspberry Pi and configured VNC for remote desktop access.  
+- Connected USB microphone and verified it was detected by the system.  
+- Installed required Python libraries in Thonny.  
+- Developed Python script to capture audio samples and analyze amplitude levels.  
+- Validated results with varying sound inputs.  
+- Integrated Vosk small model for speech-to-text testing and verified basic transcription functionality.  
+- Documented process for future AI-related tasks.  
+
+### Day 3
+- Extended speech-to-text project by implementing continuous recording functionality.  
+- Modified Python script to save audio and corresponding transcripts into files for later analysis.  
+- Tested audio playback via earphones and configured correct input/output devices on Raspberry Pi.  
