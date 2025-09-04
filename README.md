@@ -1,4 +1,3 @@
-# RaspberryPi_Project
 # Hi, I'm Poh Yu Wei 👋
 
 🎓 Bachelor of Electronic Engineering, Universiti Teknologi Malaysia (UTM)  
