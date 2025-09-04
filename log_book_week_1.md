@@ -23,9 +23,3 @@
 - **Day 5:** Integrated Vosk small model for speech-to-text testing. Verified basic transcription functionality and documented process for future AI tasks.  
 
 ---
-
-**Student’s Signature:**  
-_Date:_  
-
-**Supervisor’s Signature:**  
-_Date:_  
