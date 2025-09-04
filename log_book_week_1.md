@@ -1,8 +1,9 @@
 # VECAD ELITE INTERNSHIP 2025 - WEEK 1
 
 **Name:** Poh Yu Wei  
-**Matric:** [Your Matric No.]  
-**Supervisor:** [Supervisor Name]  
+**Matric:** A23KE0307 
+**Supervisor:** Assoc Prof  Muhammad Mun’im 
+Bin Ahmad Zabidi  
 
 ---
 
