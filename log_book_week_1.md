@@ -5,6 +5,7 @@
 **Supervisor:** Assoc Prof Muhammad Mun’im Bin Ahmad Zabidi  
 
 ---
+<img width="1816" height="899" alt="image" src="https://github.com/user-attachments/assets/2c7bd61e-140c-4f67-b9b4-06fecfba5ab4" />
 
 ## Objectives
 - Set up Raspberry Pi OS without a monitor (headless setup).  
