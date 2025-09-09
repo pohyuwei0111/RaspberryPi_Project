@@ -11,7 +11,7 @@ Headless Pi setup, remote dev, basic audio pipeline, baseline STT.
 - [x] Continuous recording with auto transcript saving
 
 ## Day-by-day log
-**Tue (2025-09-02)**
+**Tue (2025-09-02)** 
 -Explore alternative way to setup Raspberry Pi
 
 **Wed (2025-09-03)**
