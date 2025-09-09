@@ -12,6 +12,7 @@ Headless Pi setup, remote dev, basic audio pipeline, baseline STT.
 
 ## Day-by-day log
 **Tue (2025-09-02)**  
+
 -Explore alternative way to setup Raspberry Pi
 
 **Wed (2025-09-03)**
