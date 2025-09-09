@@ -1,0 +1,39 @@
+# Week {{ISO_WEEK}} ({{DATE_RANGE}})
+
+## Theme / Focus
+<!-- one-liner: e.g., "Set up Pi audio pipeline and baseline STT" -->
+
+## Goals (planned at start of week)
+- [ ] …
+- [ ] …
+
+## Day-by-day log (short, factual, step-by-step)
+**Mon (YYYY-MM-DD)**
+- …
+- …
+**Tue (YYYY-MM-DD)**
+- …
+- …
+
+## Artifacts / Demos
+- Code: [path/to/script.py](../../src/…)
+- Sample: [path/to/sample.wav](../../data/…)
+- Screenshot (optional): ![](../images/2025-W36-setup.png)
+
+## Results / Metrics
+- e.g., amplitude detector works; peak latency ~XX ms
+- e.g., STT (Vosk small): WER ≈ XX%
+
+## Issues & Debug Notes
+- Problem → fix/attempts → outcome
+
+## Decisions (link ADRs if any)
+- Chose X over Y because …
+- ADR: [link](../decisions/2025-09-10-use-vosk.md)
+
+## Learnings
+- Short bullets of “what I learned” this week
+
+## Next Week Plan
+- [ ] …
+- [ ] …
