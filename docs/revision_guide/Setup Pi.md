@@ -6,7 +6,7 @@
 - Raspberry Pi Imager [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 - USB mic
 
-!Alt (<img width="628" height="445" alt="image" src="https://github.com/user-attachments/assets/422372f5-342e-452b-91db-6b5eb7da16a7" />)
+<img width="628" height="445" alt="image" src="https://github.com/user-attachments/assets/422372f5-342e-452b-91db-6b5eb7da16a7" />
 
 
 ## Commands (copy/paste)
