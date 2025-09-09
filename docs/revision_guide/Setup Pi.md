@@ -5,6 +5,7 @@
 - SD card reader
 - Raspberry Pi Imager [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 - USB mic
+- TigerVNC viewer(free & open source)
 
 ## Install Raspberry Pi imager  
 <img width="628" height="445" alt="image" src="https://github.com/user-attachments/assets/422372f5-342e-452b-91db-6b5eb7da16a7" />  
@@ -41,3 +42,19 @@ sudo raspi-config
 <img width="732" height="391" alt="image" src="https://github.com/user-attachments/assets/6b55a440-2375-4df9-aaed-4b5ff008e48e" />
 
 ## Enable VNC
+Interface Options->VNC, then reboot
+```bash
+sudo reboot
+```
+<img width="737" height="402" alt="image" src="https://github.com/user-attachments/assets/dded40de-eed2-46b2-8342-258bbebbc3fd" />
+
+## Download Tiger VNC Viewer
+[TigerVNC Viewer](https://sourceforge.net/projects/tigervnc/files/stable/1.15.0/)
+and connect to raspberry Pi using the ip obtained
+
+<img width="555" height="201" alt="image" src="https://github.com/user-attachments/assets/da0ebcc3-622d-46dd-acbb-4fcef0067eef" />
+<img width="512" height="300" alt="image" src="https://github.com/user-attachments/assets/413826d8-c629-4673-a4a1-be1dde1a40d3" />
+<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/486b4501-237e-4667-a769-f7a5919757b1" />
+
+## install updates
+<img width="244" height="107" alt="image" src="https://github.com/user-attachments/assets/b41acc9b-8f9d-4fd9-8c47-745b329141b4" />
