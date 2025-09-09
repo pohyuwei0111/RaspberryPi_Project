@@ -1,4 +1,4 @@
-https://github.com/pohyuwei0111/RaspberryPi_Project/blob/912dece8ade9e786bd1eedf3fcab5ee19cdec8b3/pictures/test.png
+![Alt text]([https://assets.digitalocean.com/articles/alligator/boo.svg "a title"](https://github.com/pohyuwei0111/RaspberryPi_Project/blob/912dece8ade9e786bd1eedf3fcab5ee19cdec8b3/pictures/test.png))
 ## 🚀 Current Project: Speech-to-Text on Raspberry Pi
 I’m working on building a **speech-to-text system** using Raspberry Pi 4B, a USB microphone, and the Vosk recognition model.  
 
