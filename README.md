@@ -1,10 +1,3 @@
-# Hi, I'm Poh Yu Wei 👋
-
-🎓 Bachelor of Electronic Engineering, Universiti Teknologi Malaysia (UTM)  
-💻 Passionate about AI, IoT, and Embedded Systems  
-
----
-
 ## 🚀 Current Project: Speech-to-Text on Raspberry Pi
 I’m working on building a **speech-to-text system** using Raspberry Pi 4B, a USB microphone, and the Vosk recognition model.  
 
