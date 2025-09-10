@@ -2,6 +2,7 @@
 ## Steps
 Train a model -> Quantization -> Convert to tflite
 ## Train a model  
+[Model Training Guide](docs/revision_guide/deeplearning/module1.md)
 ## Quantization  
 ```bash
  import tensorflow as tf
