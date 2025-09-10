@@ -11,3 +11,10 @@ pip install pyaudio
 python3 sound_detector.py
 ```
 # Speech to Text
+## Install Vosk ( Speech to Text Model )
+Lightweight & fast Speech to Text Model
+```bash
+pip install Vosk
+```
+## Python Code for Speech to Text
+[sst.py](https://github.com/pohyuwei0111/RaspberryPi_Project/blob/ede6949a318272aeac969b4f5bbb55e8d1166b6c/src/audio/stt.py)
