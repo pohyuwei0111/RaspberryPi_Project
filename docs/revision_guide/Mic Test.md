@@ -18,3 +18,6 @@ pip install Vosk
 ```
 ## Python Code for Speech to Text
 [sst.py](https://github.com/pohyuwei0111/RaspberryPi_Project/blob/ede6949a318272aeac969b4f5bbb55e8d1166b6c/src/audio/stt.py)
+# Voice Recorder
+**Save the wav file of voice recorded and corresponding transcript txt file**
+## 
