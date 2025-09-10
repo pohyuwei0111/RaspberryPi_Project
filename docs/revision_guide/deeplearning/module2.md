@@ -34,5 +34,6 @@ Install ai-edge-litert runtime ( upgraded version of tflite runtime)
 ```bash
 pip install ai-edge-litert
 ```
-Then run the python scripts to perform inference of MNIST
+Then run the python scripts to perform inference of MNIST  
+[MNIST_Infer](https://github.com/pohyuwei0111/RaspberryPi_Project/blob/7413d62eb2ed2f6c1acdc63b64820696f9a75ba4/src/inference/mnist_infer.py)
 
