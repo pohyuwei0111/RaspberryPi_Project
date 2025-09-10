@@ -1,4 +1,4 @@
-# Sound Amplitude Visualizer
+# 1. Sound Amplitude Visualizer
 ## Install dependencies
 ```bash
 pip install pyaudio
@@ -10,7 +10,7 @@ pip install pyaudio
 ```bash
 python3 sound_detector.py
 ```
-# Speech to Text
+# 2. Speech to Text
 ## Install Vosk ( Speech to Text Model )
 Lightweight & fast Speech to Text Model
 ```bash
@@ -18,7 +18,7 @@ pip install Vosk
 ```
 ## Python Code for Speech to Text
 [sst.py](https://github.com/pohyuwei0111/RaspberryPi_Project/blob/ede6949a318272aeac969b4f5bbb55e8d1166b6c/src/audio/stt.py)
-# Voice Recorder
+# 3. Voice Recorder
 **Save the wav file of voice recorded and corresponding transcript txt file**
 ## Python Code
 [Recorder.py](https://github.com/pohyuwei0111/RaspberryPi_Project/blob/ede6949a318272aeac969b4f5bbb55e8d1166b6c/src/audio/stt.py)
