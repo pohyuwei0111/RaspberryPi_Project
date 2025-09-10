@@ -10,3 +10,4 @@ pip install pyaudio
 ```bash
 python3 sound_detector.py
 ```
+# Speech to Text
