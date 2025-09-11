@@ -39,6 +39,7 @@ Then run the python scripts to perform inference of MNIST
 
 # Result of Inference  
 ## Single Image Inference  
+[digit_recog.py](https://github.com/pohyuwei0111/RaspberryPi_Project/blob/d90557c2395fdf49bb24ffeb99d2f73351a49a90/src/inference/digit_recog.py)  
 
 <img width="874" height="123" alt="Screenshot 2025-09-11 102810" src="https://github.com/user-attachments/assets/0261afe2-84cb-4085-a7e2-e8cb3c19b252" />
 
