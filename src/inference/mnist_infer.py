@@ -1,5 +1,7 @@
 import numpy as np
 from ai_edge_litert.interpreter import Interpreter
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+import matplotlib.pyplot as plt
 
 # 1. Load MNIST dataset
 with np.load("/home/poh/Documents/vecad/python/Deep_learning/mnist.npz") as data:
@@ -17,6 +19,7 @@ output_details = interpreter.get_output_details()
 
 # 4. Run inference on all test samples
 correct = 0
+y_pred = []
 total = len(x_test)
 
 for i in range(total):
@@ -25,10 +28,22 @@ for i in range(total):
     interpreter.invoke()
     output_data = interpreter.get_tensor(output_details[0]['index'])
     pred = np.argmax(output_data)
+    y_pred.append(pred)
 
     if pred == y_test[i]:
         correct += 1
 
+y_pred = np.array(y_pred)
+
 accuracy = correct / total * 100
 print(f"Test accuracy: {accuracy:.2f}% ({correct}/{total})")
+
+# Compute confusion matrix
+cm = confusion_matrix(y_test, y_pred)
+
+# Display confusion matrix
+disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=np.arange(10))
+disp.plot(cmap=plt.cm.Blues, xticks_rotation=45)
+plt.title("MNIST Confusion Matrix")
+plt.show()
 
