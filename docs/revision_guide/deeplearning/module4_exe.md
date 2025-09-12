@@ -2,10 +2,9 @@
 
 ## Exercises
 
-1. Replace freefield1010 with warblrb to train the CNN. Is the accuracy improved or
-   worsened?
+1. Replace freefield1010 with warblrb to train the CNN. Is the accuracy improved or worsened?  
 | Dataset | Accuracy |  
-|-------------|--------------|  
+|---|---|  
 | **freefield1010** | 0.72 |  
 | **warblrb10k** | 0.7669 |   
 
