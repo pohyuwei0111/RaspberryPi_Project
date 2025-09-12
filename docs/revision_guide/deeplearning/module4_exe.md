@@ -6,7 +6,7 @@
 
    | Dataset | Accuracy |
    |---|---|
-   | **freefield1010** | 0.72 |
+   | **freefield1010** | 0.7672 |
    | **warblrb10k** | 0.7669 |  
 
 3. Use the TinyChirp dataset to train the CNN. This dataset has fixed train/validate/test splits. What kind of modifications are needed to properly train your CNN?
