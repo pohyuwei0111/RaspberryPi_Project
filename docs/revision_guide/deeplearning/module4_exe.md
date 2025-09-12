@@ -4,10 +4,10 @@
 
 1. Replace freefield1010 with warblrb to train the CNN. Is the accuracy improved or
    worsened?  
-|   Dataset   |   Accuracy   |  
+| Dataset | Accuracy |  
 |-------------|--------------|  
-|**freefield1010**| 0.72 |  
-|**warblrb10k**| 0.7669 |   
+| **freefield1010** | 0.72 |  
+| **warblrb10k** | 0.7669 |   
 3. Use the TinyChirp dataset to train the CNN. This dataset has fixed train/vali-
    date/test splits. What kind of modifications are needed to properly train your
    CNN?
