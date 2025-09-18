@@ -33,7 +33,7 @@ full codes:  [spec_class.py](https://github.com/pohyuwei0111/RaspberryPi_Project
    DATASET_PATH = "/content/seabird3s"
 
 ## Test Results  
-Evaluating model on test set...
+Evaluating model on test set...  
 Test Accuracy: 80.3%
 
 ### 📄 Classification Report
@@ -67,7 +67,7 @@ Dataset Statistics:
 
 ## Sample Predictions  
 
-=== SAMPLE PREDICTIONS ===
+=== SAMPLE PREDICTIONS ===  
 Correct - True: latnig2, Predicted: latnig2 (confidence: 1.00)  
 Correct - True: whtkin2, Predicted: whtkin2 (confidence: 0.83)  
 Correct - True: asikoe2, Predicted: asikoe2 (confidence: 0.74)  
