@@ -1,7 +1,7 @@
 # *Bird Species Classification with CNN (MobileNetV3 + Mel-Spectrograms)*  
 
 ---
-full codes: 
+full codes:  [spec_class.py](https://github.com/pohyuwei0111/RaspberryPi_Project/blob/f9cc8fcbdb7d643f283fefea20ed7c47dd4c7e19/docs/revision_guide/deeplearning/spec_class.py)
 - **Pipeline:**
   1. Load audio → convert to Mel-spectrogram → RGB image.  
   2. Preprocess for MobileNetV3.  
