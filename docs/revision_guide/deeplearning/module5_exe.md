@@ -5,7 +5,7 @@
 <img width="1189" height="390" alt="image" src="https://github.com/user-attachments/assets/94acd1b1-1116-4c8c-90eb-7fcb939ace8d" />
 
  3. Copy the code and dataset to your laptop, convert script to regular Python (.py) and run locally.  
- 
+ [Modified Script to run on laptop](https://github.com/pohyuwei0111/RaspberryPi_Project/blob/dbfe4da6260047ab019b43ae8cc86147f70f59dd/docs/revision_guide/deeplearning/spec_class_local.py)  
  4. Convert the trained model to TensorFlow Lite (.tflite format)  
  
  5. Experiment with different pre-trained models (VGG16, ResNet50, EfficientNet) instead of MobileNetV3 and compare their performance on the seabird classification task.  
