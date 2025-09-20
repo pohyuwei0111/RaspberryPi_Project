@@ -7,7 +7,7 @@
  3. Copy the code and dataset to your laptop, convert script to regular Python (.py) and run locally.  
  [Modified Script to run on laptop](https://github.com/pohyuwei0111/RaspberryPi_Project/blob/dbfe4da6260047ab019b43ae8cc86147f70f59dd/docs/revision_guide/deeplearning/spec_class_local.py)  
  4. Convert the trained model to TensorFlow Lite (.tflite format)  
- 
+ [Training + Conversion Script](https://github.com/pohyuwei0111/RaspberryPi_Project/blob/5cb7ec9c290af0ff65692d5674b49d90ee7f2ae4/docs/revision_guide/deeplearning/mobilenet_model_conv_tf.py)
  5. Experiment with different pre-trained models (VGG16, ResNet50, EfficientNet) instead of MobileNetV3 and compare their performance on the seabird classification task.  
  
  6. Implement audio data augmentation techniques(pitchshifting, timestretching, background noise addition) and measure the impact on model generalization and test accuracy.  
