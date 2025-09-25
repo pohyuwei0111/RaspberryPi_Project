@@ -8,6 +8,7 @@ import librosa
 import cv2
 import matplotlib.pyplot as plt
 import librosa.display
+import matplotlib.image as mpimg
 
 # ==== TARGET SPECIES (exact BirdNET labels) ====
 TARGET_SPECIES = [
@@ -30,10 +31,14 @@ LABELS_PATH = "labels_en.txt"
 SAMPLE_RATE = 48000
 DURATION = 3.0
 SAMPLES_NEEDED = int(SAMPLE_RATE * DURATION)
-CONF_THRESHOLD = 0.8
-BAD_THRESHOLD = 0.5
+CONF_THRESHOLD = 0
+BAD_THRESHOLD = 0.25
 SAVE_DIR = "detections"
 os.makedirs(SAVE_DIR, exist_ok=True)
+
+# ==== IMAGE PATHS (map each species to its JPEG) ====
+IMAGE_DIR = "bird_png"
+SPECIES_IMAGES = {sp: os.path.join(IMAGE_DIR, sp + ".jpeg") for sp in TARGET_SPECIES}
 
 # ==== LOAD BIRDNET LABELS ====
 with open(LABELS_PATH, "r") as f:
@@ -124,16 +129,38 @@ try:
             sf.write(filename, y, SAMPLE_RATE)
             print(f" Bird species detected: {pred_class} ({confidence:.3f})")
             print(f" Saved recording: {filename}")
+            
+         # === Load bird image ===
+            img = None
+            if pred_class in SPECIES_IMAGES and os.path.exists(SPECIES_IMAGES[pred_class]):
+                img = mpimg.imread(SPECIES_IMAGES[pred_class])
+
 
             # Plot mel spectrogram
             S = librosa.feature.melspectrogram(y=y, sr=SAMPLE_RATE, n_mels=128, fmax=8000)
             S_db = librosa.power_to_db(S, ref=np.max)
-            plt.figure(figsize=(8, 4))
-            librosa.display.specshow(S_db, sr=SAMPLE_RATE, x_axis="time", y_axis="mel", cmap="magma")
-            plt.colorbar(format="%+2.0f dB")
-            plt.title(f"{pred_class} ({confidence:.2f})")
+            
+        # === Plot side by side ===
+            fig, ax = plt.subplots(1, 2, figsize=(12, 5))
+
+            # Left: bird image
+            if img is not None:
+                ax[0].imshow(img)
+                ax[0].axis("off")
+                ax[0].set_title(pred_class, fontsize=12)
+            else:
+                ax[0].text(0.5, 0.5, "No image available", ha="center", va="center", fontsize=12)
+                ax[0].axis("off")
+
+            # Right: spectrogram
+            img_spec = librosa.display.specshow(S_db, sr=SAMPLE_RATE, x_axis="time",
+                                                y_axis="mel", cmap="magma", ax=ax[1])
+            fig.colorbar(img_spec, ax=ax[1], format="%+2.0f dB")
+            ax[1].set_title(f"Mel spectrogram\nConf={confidence:.2f}")
+
             plt.tight_layout()
             plt.show()
+
             input("Press Enter to continue detection...")
         else:
             print(f" Bird detected but not in top 10 species (best={pred_class}, {confidence:.3f})")
